@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .message-container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 80%;
+            max-width: 400px;
+            position: relative;
+        }
+        .flowers {
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 30px;
+            animation: pop 1.5s ease-out;
+        }
+        @keyframes pop {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        h1 {
+            color: #e74c3c;
+            font-size: 22px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .signature {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <div class="flowers">🌸💐🌷🌼🌹</div>
+        <h1>I'm Sorry</h1>
+        <p>I know that I hurt you a lot, and I truly regret my actions. Please forgive me.</p>
+        <div class="signature">From your Kannappi</div>
+    </div>
+</body>
+</html>
